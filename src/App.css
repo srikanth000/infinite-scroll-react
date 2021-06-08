@@ -1,3 +1,4 @@
+
 .card {
  box-sizing: 'border-box';
  display: flex;
@@ -7,6 +8,7 @@
  height: 10%;
  flex-direction: column;
  margin-bottom: 24px;
+ background-color: white;
 }
 
 
@@ -15,5 +17,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 48px;
+  padding-top: 48px;
+  margin: 0;
 }
+
+
