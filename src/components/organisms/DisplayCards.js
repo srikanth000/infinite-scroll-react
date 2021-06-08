@@ -7,7 +7,7 @@ const DisplayCards = ({listData, loading}) => {
       <h2 className='text'>Posts</h2>
       {listData.map((item, index) => {
         return (
-          <div className={'card'}>
+          <div className={'card'} key={index}>
             <h3>{item.title}</h3>
             <p>{item.body}</p>
           </div>
